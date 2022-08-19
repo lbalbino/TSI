@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de entrada</title>
+</head>
+<body>
+    <form action="calcular.php" method="post" >
+        <br>
+        <span>Primeiro:</span>
+        <input type="text" name="primeiro">
+        <br>
+        <span>Segundo:</span>
+        <input type="text" name="segundo">
+        <br>
+        <input type="submit" name="calcular">  
+        <select name="operacao">
+            <option value="somar">soma</option>
+            <option value="subtrair">subtração</option>
+            <option value="multiplicar">multiplicação</option>
+            <option value="dividir">divisao</option>
+        </select>      
+    </form>
+</body>
+</html>
